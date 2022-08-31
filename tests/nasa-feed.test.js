@@ -1,6 +1,8 @@
 /* eslint-env node */
 const axios = require('axios');
 const addDays = require('date-fns/addDays');
+// import { axios } from 'axios';
+// import { addDays } from 'date-fns/addDays';
 
 function getDate(d = new Date()) {
   return d.toJSON().split('T')[0];
