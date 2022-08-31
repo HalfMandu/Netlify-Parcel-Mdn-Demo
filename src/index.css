@@ -27,7 +27,7 @@ body {
 
   /* background: #212121; */
   /* color: #dfdfdf; */
-  color: red;
+  color: blue;
 
   &:before {
     content: '';
